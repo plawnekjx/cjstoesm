@@ -1,5 +1,5 @@
 import Module from "module";
-import path from "@frida/crosspath";
+import path from "@plawnekjx/crosspath";
 import {existsSync, mkdirSync, writeFileSync} from "fs";
 import {format, type RequiredOptions} from "prettier";
 import prettierConfig from "@wessberg/prettier-config" assert {type: "json"};

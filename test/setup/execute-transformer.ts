@@ -5,7 +5,7 @@ import {TestFile} from "./test-file.js";
 import {TestContext} from "./test-context.js";
 import {createTestSetup} from "./test-setup.js";
 import {MaybeArray, PartialExcept} from "helpertypes";
-import path from "@frida/crosspath";
+import path from "@plawnekjx/crosspath";
 
 /**
  * Prepares a test

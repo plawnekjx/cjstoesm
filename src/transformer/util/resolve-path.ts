@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import {SafeReadonlyFileSystem} from "../../shared/file-system/file-system.js";
-import path from "@frida/crosspath";
+import path from "@plawnekjx/crosspath";
 import {isExternalLibrary} from "./path-util.js";
 
 export interface ResolveOptions {

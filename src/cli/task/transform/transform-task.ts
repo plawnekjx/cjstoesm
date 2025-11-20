@@ -6,7 +6,7 @@ import {cjsToEsm} from "../../../transformer/cjs-to-esm.js";
 import {createCompilerHost} from "../../../shared/compiler-host/create-compiler-host.js";
 import {TransformResult} from "../../../shared/task/transform-result.js";
 import {ensureArray, getFolderClosestToRoot, normalizeGlob} from "../../../shared/util/util.js";
-import path from "@frida/crosspath";
+import path from "@plawnekjx/crosspath";
 import {TEMPORARY_SUBFOLDER_NAME} from "../../../shared/constant.js";
 
 /**

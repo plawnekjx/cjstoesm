@@ -1,4 +1,4 @@
-import {normalize} from "@frida/crosspath";
+import {normalize} from "@plawnekjx/crosspath";
 
 export const KNOWN_EXTENSIONS = [
 	".d.ts",

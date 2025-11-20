@@ -1,4 +1,4 @@
-import path from "@frida/crosspath";
+import path from "@plawnekjx/crosspath";
 
 /**
  * Generates a proper name based on the given module specifier

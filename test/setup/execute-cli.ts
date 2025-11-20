@@ -5,7 +5,7 @@ import {configureCommands} from "../../src/cli/configure-commands.js";
 import {shouldDebug} from "../../src/transformer/util/should-debug.js";
 import {createTestResult, TestResult} from "./test-result.js";
 import {MaybeArray, PartialExcept} from "helpertypes";
-import path from "@frida/crosspath";
+import path from "@plawnekjx/crosspath";
 
 export interface CliTestContext extends TestContext {
 	args: string[];

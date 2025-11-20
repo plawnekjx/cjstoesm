@@ -1,4 +1,4 @@
-import path from "@frida/crosspath";
+import path from "@plawnekjx/crosspath";
 import fs from "fs";
 import {IgnoredLookupValue} from "helpertypes";
 

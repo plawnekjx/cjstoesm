@@ -1,7 +1,7 @@
 import {realFileSystem} from "../file-system/file-system.js";
 import {TransformTaskOptions} from "./transform-task-options.js";
 import {createTaskOptions} from "./create-task-options.js";
-import path from "@frida/crosspath";
+import path from "@plawnekjx/crosspath";
 import {ensureArray} from "../util/util.js";
 import {PartialExcept} from "helpertypes";
 

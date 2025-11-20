@@ -1,7 +1,7 @@
 import {visitNode} from "./visitor/visit/visit-node.js";
 import {BeforeTransformerSourceFileStepResult, BeforeVisitorContext} from "./visitor/before-visitor-context.js";
 import {BeforeVisitorOptions} from "./visitor/before-visitor-options.js";
-import {check} from "@frida/reserved-words";
+import {check} from "@plawnekjx/reserved-words";
 import {isNamedDeclaration} from "./util/is-named-declaration.js";
 import {getLocalsForBindingName} from "./util/get-locals-for-binding-name.js";
 import {shouldSkipEmit} from "./util/should-skip-emit.js";
@@ -9,7 +9,7 @@ import {ModuleExports} from "./module-exports/module-exports.js";
 import {visitImportAndExportDeclarations} from "./visitor/visit/visit-import-and-export-declarations.js";
 import {TS} from "../type/ts.js";
 import {shouldDebug} from "./util/should-debug.js";
-import path from "@frida/crosspath";
+import path from "@plawnekjx/crosspath";
 import {VisitorContext} from "./visitor-context.js";
 
 export function transformSourceFile(sourceFile: TS.SourceFile, context: VisitorContext): BeforeTransformerSourceFileStepResult {

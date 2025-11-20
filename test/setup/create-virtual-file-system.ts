@@ -1,4 +1,4 @@
-import path from "@frida/crosspath";
+import path from "@plawnekjx/crosspath";
 import {FileSystem} from "../../src/shared/file-system/file-system.js";
 import {TestFileRecord} from "./test-file.js";
 import {Volume, createFsFromVolume} from "memfs";
